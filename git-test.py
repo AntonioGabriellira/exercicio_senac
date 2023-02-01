@@ -11,3 +11,5 @@ nome = input("nome do produto: ")
 preco = int(input("preço do produto: "))
 qtd = int(input("digite a quantidade: "))
 produto = Produto(nome, preco, qtd)
+
+produto.exibir()
