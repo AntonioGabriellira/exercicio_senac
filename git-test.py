@@ -13,3 +13,5 @@ qtd = int(input("digite a quantidade: "))
 produto = Produto(nome, preco, qtd)
 
 produto.exibir()
+
+print(f"o valor total é: {qtd * produto.preco}")
